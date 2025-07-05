@@ -78,7 +78,9 @@ Deve aparecer os containers: `redis-server`, `postgres-db`, `mongodb`, `clickhou
 ### ClickHouse
 
 - Container: `clickhouse-server`  
-- Portas: `8123` (HTTP), `9000` (TCP)  
+- Portas: `8123` (HTTP), `9000` (TCP)
+- Usuário root: `admin`  
+- Senha root: `admin123`  
 - Volume persistente: `clickhouse_data`  
 - Arquivo de configuração customizado: `./config/users.xml` mapeado para `/etc/clickhouse-server/users.d/custom-user.xml`
 
